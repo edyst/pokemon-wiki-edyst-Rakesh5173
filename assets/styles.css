@@ -1,0 +1,592 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+/*Header*/
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    /*horizontal adjustment*/
+    background-color: whitesmoke;
+}
+
+#brand {
+    padding: 5px;
+    width: 40%;
+    overflow: hidden;
+    margin: 0;
+}
+
+#menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* vertical adjustment*/
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.dropbtn {
+    background-color: whitesmoke;
+    color: black;
+    padding: 16px;
+    font-size: 10px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(65, 53, 177, 0.671);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #4f3e8e;
+}
+
+.b1 {
+    background-color: rgb(255, 81, 0);
+    padding: 1px 15px 1px 15px;
+    font-size: 10px;
+    border: none;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+
+/* Home Page-------------------------*/
+
+.container {
+    background-image: url("https://imgur.com/ksqOx5F");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.centered {
+    padding: 20px 80px 20px 40px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    /* Transparent color(a=0->1)*/
+    color: #000000b3;
+    width: 100%;
+    opacity: 1;
+    color: white;
+    padding: 20px;
+}
+
+.apply_button {
+    background-color: #4992ca;
+    color: #fff;
+    border: none;
+    padding: 5px 35px 5px 35px;
+    margin: 0;
+}
+
+.schedule {
+    background-color: #ffffff00;
+    color: #fff;
+    height: 50px;
+    margin-top: 12px;
+    padding: 0px 10px 0px 10px;
+}
+
+.learnmore {
+    display: block;
+    border-radius: 15px;
+    padding: 8px;
+    margin-top: 12px;
+    margin-left: 0;
+}
+
+.learnmore::after {
+    border: none;
+}
+
+.main_heading {
+    font-size: 90px;
+    color: white;
+}
+
+.main_content {
+    color: white;
+    overflow: hidden;
+}
+
+.apply_button {
+    display: block;
+    margin-top: 12px;
+}
+
+
+/* ----------Pocket section---------------*/
+
+body {
+    font-size: 16px;
+    font-family: Avenir-Next, Roboto, sans-serif;
+    background-color: #7f8c8d;
+}
+
+.pocket {
+    padding: 30px 80px 30px 80px;
+    margin: auto;
+    font-family: Avenir-Next, Roboto, sans-serif;
+    background-color: #4992ca;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.pocket1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.pocket2 {
+    padding: 50px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pmh2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.pmh4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.pocket3 {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*---Statics-------------------------------------------*/
+
+.st {
+    font-family: Avenir-Next, Roboto, sans-serif;
+    background-color: white;
+    padding: 45px 90px;
+}
+
+.statistics {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Avenir-Next, Roboto, sans-serif;
+}
+
+.stat-content {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*----------------------------------------------*/
+
+.poy {
+    padding: 45px 90px;
+    background-color: white;
+    font-weight: 100;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+
+/*----------------Q & A------------------------------------*/
+
+.qa {
+    background-color: #4992ca;
+    color: white;
+    padding: 45px 90px;
+}
+
+.qa-content {
+    padding: 20px;
+}
+
+
+/*-----------Battles--------------------------------------------*/
+
+.table2 {
+    background-color: white;
+}
+
+.td2,
+.th2 {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #dddddd;
+}
+
+.table2 {
+    border-collapse: collapse;
+}
+
+.td2 {
+    color: #8a8a8a;
+}
+
+.battles {
+    padding: 45px 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.head,
+.foot1 {
+    flex: 1 100%;
+    padding: 20px;
+}
+
+.main {
+    flex: 1 33%;
+    color: #8a8a8a;
+    margin: 0;
+    padding: 10px;
+}
+
+.side {
+    flex: 2 66%;
+}
+
+.book {
+    color: #4992ca;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.buy_button {
+    background-color: #4992ca;
+    color: #fff;
+    border: none;
+    padding: 3px 70px 3px 70px;
+    font-size: 16px;
+}
+
+.booking {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+
+.knowmore {
+    background-color: #424242;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.clickhere {
+    margin-top: 10px;
+    background-color: #424242;
+    color: white;
+    padding: 5px 50px 5px 50px;
+}
+
+
+/*-------card-------------------------------------------------*/
+
+.pokemon_card {
+    padding: 45px 90px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-left: 30px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.card-header {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-top: 16px solid #4992ca;
+    background-color: rgba(0, 0, 0, 0.03);
+    color: #7f8c8d;
+}
+
+.card-sub-heading {
+    color: #7f8c8d;
+    line-height: 1.2;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-text {
+    color: black;
+}
+
+
+/*---TRainer table-----------------------------------------*/
+
+.trainer {
+    background-color: #4992ca;
+    color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: 100;
+}
+
+.trainer-profile {
+    border-radius: 50%;
+    background-color: #4992ca;
+}
+
+.t-details {
+    text-align: center;
+}
+
+
+/*h4,h6 --> inline styling
+---------------------------------------------------------------*/
+
+
+/*-- Genration cards--------------------*/
+
+.gen-cards {
+    padding: 45px 90px;
+    background-color: #fff;
+}
+
+.cards_container2 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card2 {
+    width: 478px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 8px;
+    line-height: 24px;
+}
+
+.card-sub-heading2 {
+    font-weight: 700;
+    height: 45px;
+    color: #3c3333;
+    text-align: left;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.card-body2 {
+    padding: 10px;
+}
+
+.card-header2 {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-top: 16px solid #4992ca;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+
+/*-----------------------------------------------*/
+
+.input-section {
+    background-color: #424242;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.email-input {
+    margin-top: 10px;
+    border: none;
+    padding: 6px 60px 6px 3px;
+}
+
+.submit-button {
+    background-color: #424242;
+    padding: 5px 50px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.input2 {
+    text-align: center;
+}
+
+
+/*-------Games Section----------------------------------------*/
+
+.game-section {
+    padding: 45px 90px;
+    background-color: #fff;
+}
+
+.games {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.more-games {
+    background-color: #4992ca;
+    color: #fff;
+    padding: 8px 50px 8px 50px;
+    border: none;
+}
+
+.more {
+    text-align: center;
+}
+
+
+/*-------Designer Section----------------------------------------*/
+
+.designer {
+    background-color: #4992ca;
+    color: #fff;
+    font-weight: 50;
+}
+
+.design-heads {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    padding: 20px 50px 80px 50px;
+    justify-content: space-between;
+}
+
+.design-profile {
+    border-radius: 50%;
+}
+
+.designer-details {
+    text-align: center;
+}
+
+.designer-name {
+    font-size: 20px;
+}
+
+
+/*-------Logo Section----------------------------------------*/
+
+.logo-section {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.logos-1 {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logos-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*-------WKM Section----------------------------------------*/
+
+.wkm {
+    padding-top: 20px;
+    background-color: #4992ca;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.wkm-button {
+    background-color: #4992ca;
+    border: 1px solid white;
+    color: white;
+    padding: 4px 50px;
+}
+
+
+/*-----Footer----------------------------------------*/
+
+.footer-section {
+    background-color: rgb(1, 13, 24);
+}
+
+.foot-row {
+    padding: 10px 0px 40px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.foot-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
