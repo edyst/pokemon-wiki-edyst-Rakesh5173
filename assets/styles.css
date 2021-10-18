@@ -17,6 +17,10 @@
         overflow: hidden;
         margin: 0;
     }
+    .edyst {
+        width: 50px;
+        height: 25px;
+    }
     
     #menu {
         width: 60%;
